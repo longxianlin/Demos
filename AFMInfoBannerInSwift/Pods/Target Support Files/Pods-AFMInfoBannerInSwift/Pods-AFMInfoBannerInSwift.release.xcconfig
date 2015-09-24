@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFMInfoBanner" "${PODS_ROOT}/Headers/Public/CVKHierarchySearcher"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFMInfoBanner" -isystem "${PODS_ROOT}/Headers/Public/CVKHierarchySearcher"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFMInfoBanner" -l"CVKHierarchySearcher" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods

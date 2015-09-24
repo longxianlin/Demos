@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		009FC97F2420B32495E0611285889EDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC7EB3AC839A9CAC21231CAFC611FA9 /* Foundation.framework */; };
+		045F173D4609E4921D70975648994AA5 /* ViewControllerHierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = EB5A34D023B2C4730A0F35B15DDBDB30 /* ViewControllerHierarchy.h */; };
+		42CF7EA623F6D21E92177F4E740BF3EA /* CVKHierarchySearcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F9F3936A019CC82D426D83D5F6868D /* CVKHierarchySearcher.h */; };
+		4A7B44B568AF8D9510403383D177372D /* CVKHierarchySearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 455BFD12414662659CEFEEF0DC88CD73 /* CVKHierarchySearcher.m */; };
+		4DF683D9E353B4B2D319041715BF9E3A /* Pods-AFMInfoBannerInSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4706321478B8540AC839B4D8F7938C9 /* Pods-AFMInfoBannerInSwift-dummy.m */; };
+		93CFB82F4D9E415BAACFC643C752BAB6 /* AFMInfoBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B693F55BDA0BEA45756F185539568B /* AFMInfoBanner.h */; };
+		9FF0C6AE7199F6D70D2C628AB42DBD12 /* AFMInfoBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8702ED12C663D736A2808D89173D9E8E /* AFMInfoBanner-dummy.m */; };
+		AB66E7EB47419BF617000BE9DA815742 /* AFMInfoBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = E84C526BFE5F4B4982A968C548F1C181 /* AFMInfoBanner.m */; };
+		B308104345179003EF7F94530D63222E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7755BE6D96B80242B3169704FB0424A2 /* UIKit.framework */; };
+		C98FA6C3E536B77ECFB8D439427AE48B /* CVKHierarchySearcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F940E5062E58C0C001AC2178A0412B36 /* CVKHierarchySearcher-dummy.m */; };
+		E562185729051B301FE56C4699816FB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC7EB3AC839A9CAC21231CAFC611FA9 /* Foundation.framework */; };
+		E94E3F018C1C93C93207737AD1A5404E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC7EB3AC839A9CAC21231CAFC611FA9 /* Foundation.framework */; };
+		ED0E73A901DF8DB3DA3BE771A35D8F77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7755BE6D96B80242B3169704FB0424A2 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D14A6FD3C34A9CCC0A1312462799759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7546C2CD53CCF16AD2A95A189FEC3D6B;
+			remoteInfo = CVKHierarchySearcher;
+		};
+		A5FCE38E6477A2A2C1E2B92B0ABC8B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7546C2CD53CCF16AD2A95A189FEC3D6B;
+			remoteInfo = CVKHierarchySearcher;
+		};
+		B081F92920E6ABC4A6386FB59A1C59CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 763C1C8788C0A333445EE281BBF0FAE0;
+			remoteInfo = AFMInfoBanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE51775449CE98D9A6D5B84B8545004 /* CVKHierarchySearcher-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CVKHierarchySearcher-Private.xcconfig"; sourceTree = "<group>"; };
+		1CBC6F4B14E01322F67B5771C2899942 /* Pods-AFMInfoBannerInSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AFMInfoBannerInSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24F9F3936A019CC82D426D83D5F6868D /* CVKHierarchySearcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CVKHierarchySearcher.h; path = Pod/Classes/CVKHierarchySearcher.h; sourceTree = "<group>"; };
+		31117A34E7C50176CD32528A9641C382 /* Pods-AFMInfoBannerInSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AFMInfoBannerInSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		455BFD12414662659CEFEEF0DC88CD73 /* CVKHierarchySearcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CVKHierarchySearcher.m; path = Pod/Classes/CVKHierarchySearcher.m; sourceTree = "<group>"; };
+		57221094F1E501B50D10DE6F80A5E4AA /* AFMInfoBanner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AFMInfoBanner-Private.xcconfig"; sourceTree = "<group>"; };
+		5938EF85CA011168AA7AE7493C6FE007 /* AFMInfoBanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFMInfoBanner.xcconfig; sourceTree = "<group>"; };
+		650BAE3EFFF739BF9DA3EBC9D3105C46 /* AFMInfoBanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFMInfoBanner-prefix.pch"; sourceTree = "<group>"; };
+		7169A27E7F3E61DD3885C390D07B796B /* libCVKHierarchySearcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCVKHierarchySearcher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7755BE6D96B80242B3169704FB0424A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8356B6FEC2790CF748C1DE58A31BFA23 /* libAFMInfoBanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFMInfoBanner.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8702ED12C663D736A2808D89173D9E8E /* AFMInfoBanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFMInfoBanner-dummy.m"; sourceTree = "<group>"; };
+		9EB70C2056B8CE0083D38A47795C46DD /* Pods-AFMInfoBannerInSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AFMInfoBannerInSwift-resources.sh"; sourceTree = "<group>"; };
+		A8B693F55BDA0BEA45756F185539568B /* AFMInfoBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFMInfoBanner.h; path = Pod/Classes/AFMInfoBanner.h; sourceTree = "<group>"; };
+		B55A8760709E092FDA3041EFC13B2EF4 /* Pods-AFMInfoBannerInSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFMInfoBannerInSwift.release.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D4706321478B8540AC839B4D8F7938C9 /* Pods-AFMInfoBannerInSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFMInfoBannerInSwift-dummy.m"; sourceTree = "<group>"; };
+		DA6AD9AA776BD18A3EDAC666CBA38A48 /* CVKHierarchySearcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVKHierarchySearcher-prefix.pch"; sourceTree = "<group>"; };
+		E09D61910E833E186CDA340726751D04 /* libPods-AFMInfoBannerInSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFMInfoBannerInSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84C526BFE5F4B4982A968C548F1C181 /* AFMInfoBanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFMInfoBanner.m; path = Pod/Classes/AFMInfoBanner.m; sourceTree = "<group>"; };
+		EB5A34D023B2C4730A0F35B15DDBDB30 /* ViewControllerHierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewControllerHierarchy.h; path = Pod/Classes/ViewControllerHierarchy.h; sourceTree = "<group>"; };
+		F940E5062E58C0C001AC2178A0412B36 /* CVKHierarchySearcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CVKHierarchySearcher-dummy.m"; sourceTree = "<group>"; };
+		F9BCF5F3B5D771E76AE34FEE0B2E9054 /* CVKHierarchySearcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CVKHierarchySearcher.xcconfig; sourceTree = "<group>"; };
+		FB044DA4CC0BF3AB7FE42FAFE85DAF33 /* Pods-AFMInfoBannerInSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFMInfoBannerInSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		FEC7EB3AC839A9CAC21231CAFC611FA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64CFDB4F6B6D5C686D124F5E828EFB28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009FC97F2420B32495E0611285889EDC /* Foundation.framework in Frameworks */,
+				ED0E73A901DF8DB3DA3BE771A35D8F77 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85E691A98BC5A3547C7583DB08FA312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E562185729051B301FE56C4699816FB0 /* Foundation.framework in Frameworks */,
+				B308104345179003EF7F94530D63222E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF6379BF4C46E35FFB3682F14FBC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94E3F018C1C93C93207737AD1A5404E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C84953659CA0D635B950DDAE48AA069 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20B2A3E4DA884B7E490C8F93AAA1AF3F /* Pods-AFMInfoBannerInSwift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		20B2A3E4DA884B7E490C8F93AAA1AF3F /* Pods-AFMInfoBannerInSwift */ = {
+			isa = PBXGroup;
+			children = (
+				1CBC6F4B14E01322F67B5771C2899942 /* Pods-AFMInfoBannerInSwift-acknowledgements.markdown */,
+				31117A34E7C50176CD32528A9641C382 /* Pods-AFMInfoBannerInSwift-acknowledgements.plist */,
+				D4706321478B8540AC839B4D8F7938C9 /* Pods-AFMInfoBannerInSwift-dummy.m */,
+				9EB70C2056B8CE0083D38A47795C46DD /* Pods-AFMInfoBannerInSwift-resources.sh */,
+				FB044DA4CC0BF3AB7FE42FAFE85DAF33 /* Pods-AFMInfoBannerInSwift.debug.xcconfig */,
+				B55A8760709E092FDA3041EFC13B2EF4 /* Pods-AFMInfoBannerInSwift.release.xcconfig */,
+			);
+			name = "Pods-AFMInfoBannerInSwift";
+			path = "Target Support Files/Pods-AFMInfoBannerInSwift";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FB9306D21AF23A056944AE037CBFFF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		683AAD552391876BFD17F1005BAD0898 /* CVKHierarchySearcher */ = {
+			isa = PBXGroup;
+			children = (
+				24F9F3936A019CC82D426D83D5F6868D /* CVKHierarchySearcher.h */,
+				455BFD12414662659CEFEEF0DC88CD73 /* CVKHierarchySearcher.m */,
+				EB5A34D023B2C4730A0F35B15DDBDB30 /* ViewControllerHierarchy.h */,
+				934EC8EA720EE32D856EC87ECDEAF8DD /* Support Files */,
+			);
+			path = CVKHierarchySearcher;
+			sourceTree = "<group>";
+		};
+		74AE763B268588E473A9C4E502FC7E18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6A4CC9490D6D26328BD245AD7599CB9 /* AFMInfoBanner */,
+				683AAD552391876BFD17F1005BAD0898 /* CVKHierarchySearcher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				74AE763B268588E473A9C4E502FC7E18 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				0C84953659CA0D635B950DDAE48AA069 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		934EC8EA720EE32D856EC87ECDEAF8DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BCF5F3B5D771E76AE34FEE0B2E9054 /* CVKHierarchySearcher.xcconfig */,
+				0BE51775449CE98D9A6D5B84B8545004 /* CVKHierarchySearcher-Private.xcconfig */,
+				F940E5062E58C0C001AC2178A0412B36 /* CVKHierarchySearcher-dummy.m */,
+				DA6AD9AA776BD18A3EDAC666CBA38A48 /* CVKHierarchySearcher-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CVKHierarchySearcher";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8356B6FEC2790CF748C1DE58A31BFA23 /* libAFMInfoBanner.a */,
+				7169A27E7F3E61DD3885C390D07B796B /* libCVKHierarchySearcher.a */,
+				E09D61910E833E186CDA340726751D04 /* libPods-AFMInfoBannerInSwift.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FB9306D21AF23A056944AE037CBFFF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FEC7EB3AC839A9CAC21231CAFC611FA9 /* Foundation.framework */,
+				7755BE6D96B80242B3169704FB0424A2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D3CF3ECF36A703886C75F5B150A8B774 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5938EF85CA011168AA7AE7493C6FE007 /* AFMInfoBanner.xcconfig */,
+				57221094F1E501B50D10DE6F80A5E4AA /* AFMInfoBanner-Private.xcconfig */,
+				8702ED12C663D736A2808D89173D9E8E /* AFMInfoBanner-dummy.m */,
+				650BAE3EFFF739BF9DA3EBC9D3105C46 /* AFMInfoBanner-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFMInfoBanner";
+			sourceTree = "<group>";
+		};
+		E6A4CC9490D6D26328BD245AD7599CB9 /* AFMInfoBanner */ = {
+			isa = PBXGroup;
+			children = (
+				A8B693F55BDA0BEA45756F185539568B /* AFMInfoBanner.h */,
+				E84C526BFE5F4B4982A968C548F1C181 /* AFMInfoBanner.m */,
+				D3CF3ECF36A703886C75F5B150A8B774 /* Support Files */,
+			);
+			path = AFMInfoBanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F6946642C5EBE6F2BBDF584177A6972 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CFB82F4D9E415BAACFC643C752BAB6 /* AFMInfoBanner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC79FE711F1FCFD145ABC763DE77760 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CF7EA623F6D21E92177F4E740BF3EA /* CVKHierarchySearcher.h in Headers */,
+				045F173D4609E4921D70975648994AA5 /* ViewControllerHierarchy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C81BE425A541422B830420BEED36A2F /* Pods-AFMInfoBannerInSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFD9BE10921B24290755751A0DCEA2BE /* Build configuration list for PBXNativeTarget "Pods-AFMInfoBannerInSwift" */;
+			buildPhases = (
+				3FA6DEB4410F1C458001A687A93D2757 /* Sources */,
+				DCDF6379BF4C46E35FFB3682F14FBC30 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB51AE30118466579F49C79D8570102 /* PBXTargetDependency */,
+				D9562AB33F166F21E02DF7EF1DCCD3A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-AFMInfoBannerInSwift";
+			productName = "Pods-AFMInfoBannerInSwift";
+			productReference = E09D61910E833E186CDA340726751D04 /* libPods-AFMInfoBannerInSwift.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7546C2CD53CCF16AD2A95A189FEC3D6B /* CVKHierarchySearcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24EF6A6505177C0AD945F0CD9A4FD1A /* Build configuration list for PBXNativeTarget "CVKHierarchySearcher" */;
+			buildPhases = (
+				9630D2ACE8722F95A6B548F47B8E4E68 /* Sources */,
+				B85E691A98BC5A3547C7583DB08FA312 /* Frameworks */,
+				EDC79FE711F1FCFD145ABC763DE77760 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CVKHierarchySearcher;
+			productName = CVKHierarchySearcher;
+			productReference = 7169A27E7F3E61DD3885C390D07B796B /* libCVKHierarchySearcher.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		763C1C8788C0A333445EE281BBF0FAE0 /* AFMInfoBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83DC6520B4A1B45D4EF438962B01E315 /* Build configuration list for PBXNativeTarget "AFMInfoBanner" */;
+			buildPhases = (
+				C27BD8821CBEC13D550476F16E588833 /* Sources */,
+				64CFDB4F6B6D5C686D124F5E828EFB28 /* Frameworks */,
+				2F6946642C5EBE6F2BBDF584177A6972 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F06B36360C37210E2837247A8E07093 /* PBXTargetDependency */,
+			);
+			name = AFMInfoBanner;
+			productName = AFMInfoBanner;
+			productReference = 8356B6FEC2790CF748C1DE58A31BFA23 /* libAFMInfoBanner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				763C1C8788C0A333445EE281BBF0FAE0 /* AFMInfoBanner */,
+				7546C2CD53CCF16AD2A95A189FEC3D6B /* CVKHierarchySearcher */,
+				3C81BE425A541422B830420BEED36A2F /* Pods-AFMInfoBannerInSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA6DEB4410F1C458001A687A93D2757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF683D9E353B4B2D319041715BF9E3A /* Pods-AFMInfoBannerInSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9630D2ACE8722F95A6B548F47B8E4E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98FA6C3E536B77ECFB8D439427AE48B /* CVKHierarchySearcher-dummy.m in Sources */,
+				4A7B44B568AF8D9510403383D177372D /* CVKHierarchySearcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27BD8821CBEC13D550476F16E588833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF0C6AE7199F6D70D2C628AB42DBD12 /* AFMInfoBanner-dummy.m in Sources */,
+				AB66E7EB47419BF617000BE9DA815742 /* AFMInfoBanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F06B36360C37210E2837247A8E07093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CVKHierarchySearcher;
+			target = 7546C2CD53CCF16AD2A95A189FEC3D6B /* CVKHierarchySearcher */;
+			targetProxy = 5D14A6FD3C34A9CCC0A1312462799759 /* PBXContainerItemProxy */;
+		};
+		CDB51AE30118466579F49C79D8570102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFMInfoBanner;
+			target = 763C1C8788C0A333445EE281BBF0FAE0 /* AFMInfoBanner */;
+			targetProxy = B081F92920E6ABC4A6386FB59A1C59CB /* PBXContainerItemProxy */;
+		};
+		D9562AB33F166F21E02DF7EF1DCCD3A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CVKHierarchySearcher;
+			target = 7546C2CD53CCF16AD2A95A189FEC3D6B /* CVKHierarchySearcher */;
+			targetProxy = A5FCE38E6477A2A2C1E2B92B0ABC8B77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40DCE88593A358C943DB5A17CD8FA913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57221094F1E501B50D10DE6F80A5E4AA /* AFMInfoBanner-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFMInfoBanner/AFMInfoBanner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		480B137F523A0D362E535DB790BC673E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE51775449CE98D9A6D5B84B8545004 /* CVKHierarchySearcher-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CVKHierarchySearcher/CVKHierarchySearcher-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		771E5B8FE9CA972A21C7E3886CCDC076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB044DA4CC0BF3AB7FE42FAFE85DAF33 /* Pods-AFMInfoBannerInSwift.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A52D120C096B34A1EB78589E6CF68992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55A8760709E092FDA3041EFC13B2EF4 /* Pods-AFMInfoBannerInSwift.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A831E1E28C029312D41C68839227DB87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE51775449CE98D9A6D5B84B8545004 /* CVKHierarchySearcher-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CVKHierarchySearcher/CVKHierarchySearcher-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CED9EF2EF16B5470FA30F7DEA2C3466B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57221094F1E501B50D10DE6F80A5E4AA /* AFMInfoBanner-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFMInfoBanner/AFMInfoBanner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83DC6520B4A1B45D4EF438962B01E315 /* Build configuration list for PBXNativeTarget "AFMInfoBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DCE88593A358C943DB5A17CD8FA913 /* Debug */,
+				CED9EF2EF16B5470FA30F7DEA2C3466B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFD9BE10921B24290755751A0DCEA2BE /* Build configuration list for PBXNativeTarget "Pods-AFMInfoBannerInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				771E5B8FE9CA972A21C7E3886CCDC076 /* Debug */,
+				A52D120C096B34A1EB78589E6CF68992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24EF6A6505177C0AD945F0CD9A4FD1A /* Build configuration list for PBXNativeTarget "CVKHierarchySearcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A831E1E28C029312D41C68839227DB87 /* Debug */,
+				480B137F523A0D362E535DB790BC673E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

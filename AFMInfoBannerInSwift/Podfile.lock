@@ -1,0 +1,13 @@
+PODS:
+  - AFMInfoBanner (1.1):
+    - CVKHierarchySearcher (~> 0.2)
+  - CVKHierarchySearcher (0.2.0)
+
+DEPENDENCIES:
+  - AFMInfoBanner
+
+SPEC CHECKSUMS:
+  AFMInfoBanner: 207a0622fdfc6bff3e8d04ac557932f3d6849425
+  CVKHierarchySearcher: 7be8d3bcbcc6f86ff07f785e6c632b5e40da2553
+
+COCOAPODS: 0.38.2
